@@ -9,10 +9,12 @@
   "babel": {
     "presets": [
       "es2015",
-      "react"
+      "react",
+      "transform-object-rest-spread"
     ]
   },
   "dependencies": {
+    "babel-plugin-transform-object-rest-spread": "^6.23.0",
     "css-loader": "^0.28.1",
     "react": "^15.5.4",
     "react-dom": "^15.5.4",
